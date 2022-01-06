@@ -1,10 +1,13 @@
 body {
     font-family: 'Domine', serif;
-    margin: 5%;
+
+    padding: 2%;
 }
 
 .realmadrid {
-    border-left: 3px solid orange;
+    border-left: 5px solid orange;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 2;
 }
 
 .button-click {
@@ -25,10 +28,87 @@ body {
     display: flex;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
 
 }
 
 .padd {
     padding: 10px;
     font-size: 40px;
+}
+
+.club {
+    text-align: center;
+    font-family: Goudy Bookletter 1911, sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+.sec2mission {
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(241, 250, 227);
+    border-radius: 40px;
+}
+
+.sec2mission img {
+    width: 30%;
+}
+
+#vissionbg {
+    background-color: rgb(253, 241, 239);
+}
+
+#goalsbg {
+    background-color: rgb(250, 233, 250);
+}
+
+.section2 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    justify-content: space-around;
+}
+
+
+
+
+.section3 {
+    display: flex;
+    width: 80%;
+
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.section3 img {
+    width: 80%;
+    border-radius: 30px;
+}
+
+
+
+
+
+.section4 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-image: url(images/bg1.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.section4 img {
+    border-radius: 15px;
+    width: 85%;
 }
