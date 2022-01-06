@@ -8,7 +8,7 @@ body {
 
 .realmadrid {
     border-left: 5px solid orange;
-    border-image: linear-gradient(orange, tomato);
+    border-image: linear-gradient(purple, rgb(238, 159, 146));
     border-image-slice: 2;
 }
 
@@ -96,6 +96,15 @@ body {
     border-radius: 30px;
 }
 
+.doc {
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+
+.madrid {
+    font-size: 30px;
+}
+
 
 
 
@@ -116,6 +125,14 @@ body {
     width: 85%;
 }
 
+.about {
+    font-size: 40px;
+    margin-bottom: -25px;
+}
+
+.trophy {
+    font-size: 40px
+}
 
 
 .design {
