@@ -31,7 +31,8 @@ body {
 }
 
 .section1 img {
-    padding-left: 40px;
+    margin-left: 50px;
+    border-radius: 30px;
 }
 
 .half-width {
@@ -123,7 +124,8 @@ body {
 .section4 img {
 
     width: 85%;
-    padding-left: 40px;
+    margin-left: 50px;
+    border-radius: 30px;
 }
 
 .about {
