@@ -1,7 +1,7 @@
 body {
     font-family: 'Domine', serif;
 
-    padding: 2%;
+    /* padding: 2%; */
 }
 
 .realmadrid {
@@ -112,3 +112,36 @@ body {
     border-radius: 15px;
     width: 85%;
 }
+
+
+
+.republic {
+    text-align: center;
+    font-size: 40px;
+}
+
+.bdflag {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 150px;
+
+}
+
+.bdflag img {
+    width: 80%;
+    margin-left: 150px;
+}
+
+.end {
+    background-color: black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-weight: 20vh;
+}
+
+footer {}
