@@ -30,6 +30,10 @@ body {
 
 }
 
+.section1 img {
+    padding-left: 40px;
+}
+
 .half-width {
     width: 50%;
 
@@ -117,8 +121,9 @@ body {
 }
 
 .section4 img {
-    border-radius: 15px;
+
     width: 85%;
+    padding-left: 40px;
 }
 
 .about {
